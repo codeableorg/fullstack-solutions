@@ -1,0 +1,84 @@
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("./fonts/Inter/Inter-VariableFont_opsz-wght.ttf") format("truetype");
+}
+
+body {
+  font-family: Inter, sans-serif;
+  line-height: 1.75rem;
+  margin: 0;
+}
+
+main {
+  padding: 0 2rem;
+  max-width: 48rem;
+  margin: 4rem auto;
+}
+
+header,
+footer {
+  padding: 1.125rem 2rem;
+  font-weight: 500;
+}
+
+header > span,
+footer > span {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+header {
+  border-bottom: 1px solid hsl(0deg 0% 9% / 100%);
+}
+
+footer {
+  border-top: 1px solid hsl(0deg 0% 9% / 100%);
+}
+
+nav {
+  display: inline-block;
+}
+
+nav > a:not(:first-child) {
+  margin-left: 1rem;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+strong {
+  font-weight: 700;
+}
+
+a {
+  color: hsl(240deg 54% 51%);
+}
+
+ul {
+  padding-left: 2rem;
+}
+
+li::marker {
+  color: hsl(240deg 54% 51%);
+}
