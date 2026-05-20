@@ -2,8 +2,7 @@
 @layer definitions, reset, global, layouts, components, utilities;
 
 /* 1 Foundation */
-@import "1_foundation/colors.css" layer(definitions);
-@import "1_foundation/typography.css" layer(definitions);
+@import "1_foundation/tokens.css" layer(definitions);
 @import "1_foundation/reset.css" layer(reset);
 @import "1_foundation/global.css" layer(global);
 

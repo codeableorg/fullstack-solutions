@@ -6,8 +6,8 @@
   --captions: var(--muted-foreground);
   --bold: var(--foreground);
   --code: var(--foreground);
-  --pre: var(--muted);
-  --pre-background: var(--foreground);
+  --pre: var(--muted-foreground);
+  --pre-background: var(--background);
   --hr: var(--border);
   --td-border: var(--border);
   --th-border: var(--border);
